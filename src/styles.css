@@ -62,7 +62,7 @@ p {
 
 /*Images*/
 
-.about-img {
+.project-img {
   display: flex;
   margin: 30px 0;
   justify-content: center;
@@ -74,7 +74,7 @@ p {
   justify-content: center;
 }
 
-.about-img img {
+.project-img img {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -97,17 +97,6 @@ p {
 
 /*About me page*/
 
-.about-section {
-  display: flex;
-  justify-content: center;
-}
-
-.about-paragraphs {
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-}
-
 /*Contact me page */
 
 .email-link {
@@ -129,7 +118,10 @@ p {
   transition: all 0.5s ease;
 }
 
-.email-section {
+/*Project page */
+
+.contact-paragraph {
+  margin: 10px;
   display: flex;
   justify-content: center;
 }
