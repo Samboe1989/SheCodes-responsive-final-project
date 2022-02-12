@@ -13,8 +13,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 48px;
-  margin: 0;
+  font-size: 3rem;
   color: var(--secondary-color);
   animation-duration: 1.3s;
   animation-name: slidein;
@@ -83,6 +82,8 @@ p {
 }
 
 .index-image {
+  display: flex;
+  justify-content: center;
   margin: 30px 0px 40px 0px;
   border: 3px dotted;
   border-radius: 50% 20% / 10% 40%;
