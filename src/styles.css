@@ -8,12 +8,12 @@
 body {
   padding-top: 70px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/076/original/wp7696648.jpg?1644684455");
-  background-size: cover;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 h1 {
   text-align: center;
-  font-size: 3rem;
   color: var(--secondary-color);
   animation-duration: 1.3s;
   animation-name: slidein;
