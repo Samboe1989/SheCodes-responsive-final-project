@@ -171,13 +171,20 @@ h3 {
 
   .about-me-container {
     padding: 0px;
+    margin: 10px;
   }
 
   .project-section {
     padding: 0px;
+    margin: 10px;
   }
 
   .contact-section {
     padding: 0px;
+    margin: 10px;
+  }
+
+  .email-link {
+    font-size: 18px;
   }
 }
