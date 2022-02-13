@@ -154,6 +154,10 @@ h3 {
     display: none;
   }
 
+  .index-img-container img {
+    width: 214px;
+  }
+
   .about-me-section {
     padding: 0;
     text-align: center;
