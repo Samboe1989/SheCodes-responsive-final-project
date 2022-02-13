@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #ef9273;
+  --primary-color: #ce6c4c;
   --secondary-color: #0d0d0d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --tertiary-color: #ffd6a9;
+  --container-color: rgba(186, 177, 154, 0.5);
 }
 
 body {
@@ -94,6 +94,7 @@ h3 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--container-color);
 }
 
 /*About me page*/
@@ -109,6 +110,7 @@ h3 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--container-color);
 }
 
 .about-container {
@@ -165,6 +167,7 @@ h3 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--container-color);
 }
 
 /*Project page */
@@ -180,6 +183,7 @@ h3 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--container-color);
 }
 
 /*Media queries */
