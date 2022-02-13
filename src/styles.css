@@ -91,7 +91,8 @@ h3 {
 }
 
 .about-me-section {
-  padding: 40px;
+  padding: 10px;
+  margin: 10px;
   border: 3px dotted;
   display: flex;
   justify-content: center;
@@ -140,18 +141,6 @@ h3 {
   padding: 40px;
 }
 
-.contact-paragraph {
-  border: 1px solid;
-  background-color: var(--tertiary-color);
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
-  box-shadow: var(--box-shadow);
-  max-width: 600px;
-  display: flex;
-  justify-content: center;
-}
-
 /*Project page */
 
 .project-section {
@@ -163,5 +152,10 @@ h3 {
 @media (max-width: 576px) {
   .about-img-container {
     display: none;
+  }
+
+  .about-me-section {
+    padding: 0;
+    text-align: center;
   }
 }
