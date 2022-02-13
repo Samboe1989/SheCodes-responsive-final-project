@@ -2,7 +2,7 @@
   --primary-color: #ce6c4c;
   --secondary-color: #0d0d0d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --container-color: rgba(186, 177, 154, 0.5);
+  --container-color: rgba(186, 177, 154, 0.3);
 }
 
 body {
