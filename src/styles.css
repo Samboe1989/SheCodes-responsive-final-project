@@ -74,7 +74,7 @@ h3 {
 .index-image {
   display: flex;
   justify-content: center;
-  margin: 30px 0px 40px 0px;
+  margin: 30px 0px 30px 0px;
   border: 3px dotted;
   border-radius: 50% 20% / 10% 40%;
   box-shadow: var(--box-shadow);
@@ -88,7 +88,7 @@ h3 {
 /*Index page*/
 
 .index-container {
-  padding: 10px;
+  padding: 30px 10px 40px 10px;
   margin: 30px;
   border: 3px dotted;
   max-width: 1000px;
