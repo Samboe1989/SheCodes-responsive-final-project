@@ -47,6 +47,18 @@ h3 {
   color: var(--primary-color);
 }
 
+/*Global CSS*/
+
+.border-container {
+  padding: 10px;
+  margin: 10px 400px;
+  border: 3px dotted;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--container-color);
+}
+
 /*Images*/
 
 .project-img {
@@ -160,30 +172,10 @@ h3 {
   padding: 40px;
 }
 
-.contact-container {
-  padding: 10px;
-  margin: 10px 400px;
-  border: 3px dotted;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--container-color);
-}
-
 /*Project page */
 
 .project-section {
   padding: 40px;
-}
-
-.project-container {
-  padding: 10px;
-  margin: 10px 400px;
-  border: 3px dotted;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--container-color);
 }
 
 .project-img-container {
