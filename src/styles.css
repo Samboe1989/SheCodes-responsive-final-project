@@ -5,8 +5,6 @@
   --container-color: rgba(186, 177, 154, 0.3);
 }
 
-/*Global CSS*/
-
 body {
   padding-top: 70px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/076/original/wp7696648.jpg?1644684455");
@@ -243,11 +241,11 @@ h3 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-
-.hovereffect p,
+.project-img-container i,
 .project-img-container a {
   color: var(--primary-color);
   opacity: 0;
+  text-decoration: none;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -255,8 +253,8 @@ h3 {
   transform: translate3d(100%, 0, 0);
 }
 
-.hovereffect:hover a,
-.hovereffect:hover p,
+.project-img-container:hover i,
+.project-img-container:hover a,
 .project-img-container:hover h2 {
   opacity: 1;
   filter: alpha(opacity=100);
