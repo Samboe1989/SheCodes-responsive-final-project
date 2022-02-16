@@ -47,6 +47,12 @@ h3 {
   color: var(--primary-color);
 }
 
+h4 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .border-container {
   padding: 10px;
   margin: 10px 400px;
@@ -114,13 +120,28 @@ h3 {
 }
 
 .about-me-section {
-  padding: 10px;
+  padding: 10px 30px;
   margin: 10px 400px;
   border: 3px dotted;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--container-color);
+  display: flex;
+  justify-content: center;
+}
+
+.about-technologies i {
+  justify-content: space-around;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.about-certificates {
+  padding: 10px;
 }
 
 .about-container {
@@ -128,26 +149,13 @@ h3 {
   justify-content: center;
   padding: 15px;
 }
-
-.about-img-container {
-  padding: 10px;
-}
-
-.about-img-container img {
-  max-width: 200px;
-}
-
-.about-text-container {
-  padding: 10px 0px;
-}
-
-.about-experience-container {
-  padding: 0px 10px;
+.about-text-container p {
+  font-size: 18px;
 }
 
 /*Contact me page */
 
-.email-link {
+.contact-link {
   padding-top: 5px;
   display: flex;
   justify-content: center;
@@ -160,7 +168,7 @@ h3 {
   animation-name: slidein;
 }
 
-.email-link:hover {
+.contact-link:hover {
   color: var(--secondary-color);
   cursor: pointer;
   transition: all 0.5s ease;
