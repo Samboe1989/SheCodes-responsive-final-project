@@ -145,6 +145,23 @@ h4 {
   border-radius: 5px;
 }
 
+.email-link {
+  padding-top: 5px;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 23px;
+  animation-duration: 1.3s;
+  animation-name: slidein;
+  margin: 20px;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 24px;
+}
 /*Contact me page */
 
 .contact-icons {
@@ -172,8 +189,10 @@ h4 {
 .contact-section {
   padding: 40px;
 }
+
+.about-me-section p,
 .contact-section p {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 /*Project page */
