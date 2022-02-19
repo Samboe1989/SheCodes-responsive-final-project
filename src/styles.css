@@ -355,4 +355,12 @@ footer {
     padding: 60px 0px;
     margin: 20px 10px;
   }
+
+  footer {
+    font-size: 10px;
+  }
+
+  .bottomlink {
+    font-size: 10px;
+  }
 }
