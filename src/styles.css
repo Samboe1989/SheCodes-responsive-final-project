@@ -138,26 +138,11 @@ h4 {
   padding: 10px;
 }
 
-.technology-text p {
-  padding: 0px 0px 0px 43px;
-}
-
-.border-container i,
 .about-technologies i {
-  font-size: 25px;
-  font-weight: lighter;
+  font-size: 45px;
   padding: 5px;
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
-}
-
-.about-container {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-}
-.about-text-container p {
-  font-size: 18px;
 }
 
 /*Contact me page */
@@ -194,7 +179,6 @@ h4 {
   padding: 40px;
 }
 
-.technology-icons,
 .project-img-container {
   width: 100%;
   height: 100%;
