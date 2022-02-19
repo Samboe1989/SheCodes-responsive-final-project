@@ -361,4 +361,8 @@ footer {
   .bottomlink {
     font-size: 10px;
   }
+
+  .email-link {
+    font-size: 15px;
+  }
 }
