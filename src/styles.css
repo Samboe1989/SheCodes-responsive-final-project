@@ -131,6 +131,11 @@ h4 {
   margin-right: auto;
   background-color: var(--container-color);
 }
+.about-text-container {
+  padding: 10px 30px;
+  border: 1px solid var(--secondary-color);
+  margin: 10px;
+}
 
 .technology-icons {
   display: flex;
@@ -204,7 +209,7 @@ h4 {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  border: 1px solid var(--secondary-color);
 }
 
 .project-img-container .overlay {
@@ -212,6 +217,7 @@ h4 {
   height: 100%;
   position: absolute;
   overflow: hidden;
+  text-align: center;
   top: 0;
   left: 0;
   padding: 50px 20px;
@@ -293,7 +299,7 @@ h4 {
   justify-content: space-evenly;
   text-decoration: none;
   color: var(--secondary-color);
-  font-size: 10px;
+  font-size: 18px;
 }
 
 .bottomlink:hover {
@@ -303,7 +309,7 @@ h4 {
 }
 
 footer {
-  font-size: 10px;
+  font-size: 18px;
   text-align: center;
 }
 
