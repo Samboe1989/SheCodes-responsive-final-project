@@ -145,7 +145,7 @@ h4 {
 }
 
 .about-technologies i {
-  font-size: 50px;
+  font-size: 40px;
   padding: 5px;
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
@@ -341,7 +341,7 @@ footer {
     margin: 10px;
   }
 
-  .about-me-section p h4,
+  .about-me-section p,
   .contact-section p {
     font-size: 18px;
   }
@@ -362,8 +362,12 @@ footer {
   .email-link {
     font-size: 18px;
   }
+  .about-experience-container h4,
+  .about-technologies h4 {
+    font-size: 25px;
+  }
 
-  .index-container h4 {
-    font-size: 18px;
+  .about-technologies i {
+    font-size: 35px;
   }
 }
