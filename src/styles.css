@@ -139,7 +139,7 @@ h4 {
 }
 
 .about-technologies i {
-  font-size: 45px;
+  font-size: 40px;
   padding: 5px;
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
@@ -160,7 +160,6 @@ h4 {
   color: var(--primary-color);
   cursor: pointer;
   transition: all 0.5s ease;
-  font-size: 24px;
 }
 /*Contact me page */
 
@@ -190,7 +189,7 @@ h4 {
   padding: 40px;
 }
 
-.about-me-section p,
+.about-text-container p,
 .contact-section p {
   font-size: 23px;
 }
