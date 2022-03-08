@@ -320,10 +320,6 @@ footer {
     margin-right: auto;
   }
 
-  .index-container {
-    padding-bottom: 0px;
-  }
-
   .index-container img {
     width: 300px;
   }
@@ -349,7 +345,7 @@ footer {
   }
 
   .index-container {
-    padding: 60px 0px;
+    padding: 20px 0px;
     margin: 20px 10px;
   }
 
