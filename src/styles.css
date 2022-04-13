@@ -46,7 +46,7 @@ h2 {
 h3 {
   text-align: center;
   margin: 0;
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: 0 0 2px black;
   color: var(--primary-color);
   font-weight: bold;
@@ -322,12 +322,12 @@ footer {
 /*Media queries */
 
 @media (max-width: 576px) {
-  h2{
+  h1 strong{
     font-size: 30px;
   }
 
-  h4{
-    font-size: 20px;
+  h3{
+    font-size: 3px;
   }
   
   .about-me-section {
