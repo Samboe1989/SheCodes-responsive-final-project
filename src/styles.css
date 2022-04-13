@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ce6c4c;
+  --primary-color: #5a0063;
   --secondary-color: #0d0d0d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --container-color: rgba(186, 177, 154, 0.3);
@@ -7,7 +7,7 @@
 
 body {
   padding-top: 70px;
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/076/original/wp7696648.jpg?1644684455");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/729/original/6453971.jpg?1649839158");
   background-size: auto;
   background-repeat: repeat;
 }
@@ -44,8 +44,10 @@ h3 {
   text-align: center;
   margin: 0;
   font-size: 32px;
-  opacity: 0.7;
+
+  text-shadow: 0 0 2px black;
   color: var(--primary-color);
+  font-weight: bold;
 }
 
 h4 {
@@ -229,6 +231,11 @@ h4 {
   transform: translate3d(-10px, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  width: 550px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-shadow: var(--box-shadow);
 }
 
 .project-img-container:hover img {
