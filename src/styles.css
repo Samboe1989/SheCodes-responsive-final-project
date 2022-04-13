@@ -3,6 +3,7 @@
   --secondary-color: #0d0d0d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --container-color: rgba(186, 177, 154, 0.3);
+  --font-style:font-family: 'Handlee', cursive;
 }
 
 body {
@@ -16,6 +17,10 @@ h1 {
   color: var(--secondary-color);
   animation-duration: 1.3s;
   animation-name: slidein;
+}
+
+h1 strong {
+  font-size: 48px;
 }
 
 @keyframes slidein {
@@ -41,8 +46,7 @@ h2 {
 h3 {
   text-align: center;
   margin: 0;
-  font-size: 32px;
-
+  font-size: 25px;
   text-shadow: 0 0 2px black;
   color: var(--primary-color);
   font-weight: bold;
