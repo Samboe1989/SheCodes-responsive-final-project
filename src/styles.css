@@ -348,15 +348,14 @@ footer {
   margin: 15px 0px 15px 0px;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
-  width: auto;
-  height: auto;
+  
 }
 
 .index-img-container {
   display: flex;
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 350px;
   
 }
 
