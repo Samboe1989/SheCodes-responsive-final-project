@@ -339,23 +339,18 @@ footer {
   }
 
   .index-container img {
-    width: 300px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
   }
 
   .index-image {
   display: flex;
   justify-content: center;
-  margin: 15px 0px 15px 0px;
+  margin: 0px 30px 10px 30px;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
-  
-}
-
-.index-img-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 350px;
   
 }
 
