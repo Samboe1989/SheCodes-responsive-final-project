@@ -192,10 +192,6 @@ progress::-webkit-progress-value {
   padding-left: 10px;
 }
 
-.links i{
-  color: #0d0d0d;
-}
-
 .links a{
   text-decoration: none;
   color: #0d0d0d;
@@ -219,7 +215,7 @@ progress::-webkit-progress-value {
   border: 3px solid var(--secondary-color);
   margin: 10px;
   border-radius: 5px;
-  background-color: #EFEDDE;
+  background-color: rgba(239, 237, 222, 0.4);
 }
 
 .about-left-container img{
@@ -231,7 +227,7 @@ progress::-webkit-progress-value {
   border: 3px solid var(--secondary-color);
   margin: 10px 0px 20px 0px;
   border-radius: 5px;
-  background-color: #EFEDDE;
+  background-color: rgba(239, 237, 222, 0.4);
 }
 
 .technology-icons {
