@@ -2,7 +2,7 @@
   --primary-color: #5a0063;
   --secondary-color: #0d0d0d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --container-color: #EFEDDE;
+  --container-color: rgba(156, 123, 134, 0.4);
   --font-style:font-family: 'Handlee', cursive;
 }
 
@@ -47,7 +47,6 @@ h3 {
   text-align: center;
   margin: 0;
   font-size: 20px;
-  text-shadow: 0 0 2px black;
   color: var(--primary-color);
   font-weight: bold;
 }
@@ -56,6 +55,20 @@ h4 {
   text-align: center;
   font-size: 32px;
   font-weight: bold;
+}
+
+h6 {
+  color: var(--primary-color);
+}
+
+progress {
+  background: #5a0063;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+progress::-webkit-progress-value {
+  background: var(--primary-color)
 }
 
 .border-container {
@@ -119,7 +132,77 @@ h4 {
 /*About me page*/
 .about-me-container {
   padding: 25px 40px;
-  justify-content: center;
+}
+
+.introduction p{
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 23px;
+}
+.courses h2,
+.education h2,
+.introduction h2,
+.work-experience h2,
+.left-image h2{
+  text-align: left;
+  font-size: 20px;
+  
+}
+
+.courses h5,
+.education h5,
+.work-experience h5{
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+.courses,
+.introduction,
+.education,
+.work-experience{
+  text-align: left;
+}
+
+.languages ul,
+.skills ul,
+.personal ul{
+  list-style: none;
+  padding: 10px 10px 0px 10px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.left-image{
+  padding: 10px 10px 0px 10px;
+  border-radius: 5px;
+
+
+}
+.links h3,
+.languages h3,
+.skills h3{
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.links p{
+  text-align: left;
+  padding-left: 10px;
+}
+
+.links i{
+  color: #0d0d0d;
+}
+
+.links a{
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+.courses{
+  padding-top: 10px;
 }
 
 .about-me-section {
@@ -131,7 +214,19 @@ h4 {
   margin-right: auto;
   background-color: var(--container-color);
 }
-.about-text-container {
+.about-left-container {
+  padding: 0px;
+  border: 3px solid var(--secondary-color);
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #EFEDDE;
+}
+
+.about-left-container img{
+  width: 100%;
+}
+
+.about-right-container {
   padding: 10px 30px;
   border: 3px solid var(--secondary-color);
   margin: 10px;
