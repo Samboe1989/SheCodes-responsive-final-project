@@ -2,10 +2,11 @@
   padding: 25px 40px;
 }
 
+.work-experience p,
 .introduction p {
   text-align: left;
   padding-bottom: 10px;
-  line-height: 23px;
+  line-height: 25px;
 }
 .courses h2,
 .education h2,
@@ -20,7 +21,7 @@
 .education h5,
 .work-experience h5 {
   text-align: left;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 .courses,
@@ -96,7 +97,7 @@
 }
 
 .about-right-container {
-  padding: 10px 30px;
+  padding: 18px 10px 9px 10px;
   border: 3px solid var(--secondary-color);
   margin: 10px 0px 20px 0px;
   border-radius: 5px;
