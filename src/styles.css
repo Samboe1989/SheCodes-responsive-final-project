@@ -127,7 +127,7 @@ footer {
 
   .index-container img {
     width: 100%;
-    height: 350px;
+    height: 322px;
     display: flex;
     justify-content: center;
   }
@@ -177,6 +177,7 @@ footer {
   .email-link {
     font-size: 18px;
   }
+
   .about-experience-container h4,
   .about-technologies h4 {
     font-size: 25px;
@@ -234,7 +235,10 @@ h6{
 .links a{
   font-size: 12px;
 }
+
+.work-experience p,
 .about-me-section p{
   font-size: 12px;
+  text-align: center;
 }
 }
