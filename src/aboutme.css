@@ -94,6 +94,7 @@
 
 .about-left-container img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .about-right-container {
