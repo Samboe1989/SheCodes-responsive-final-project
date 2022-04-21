@@ -1,0 +1,27 @@
+.contact-icons {
+  text-align: center;
+}
+
+.contact-link {
+  padding-top: 5px;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 40px;
+  margin: 20px;
+}
+
+.contact-link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.contact-section {
+  padding: 25px 40px;
+}
+
+.about-text-container p,
+.contact-section p {
+  font-size: 23px;
+}

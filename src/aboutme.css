@@ -1,0 +1,130 @@
+.about-me-container {
+  padding: 25px 40px;
+}
+
+.introduction p {
+  text-align: left;
+  padding-bottom: 10px;
+  line-height: 23px;
+}
+.courses h2,
+.education h2,
+.introduction h2,
+.work-experience h2,
+.left-image h2 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.courses h5,
+.education h5,
+.work-experience h5 {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+.courses,
+.introduction,
+.education,
+.work-experience {
+  text-align: left;
+}
+
+.languages ul,
+.skills ul,
+.personal ul {
+  list-style: none;
+  padding: 10px 10px 0px 10px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.left-image {
+  padding: 10px 10px 0px 10px;
+  border-radius: 5px;
+}
+.links h3,
+.languages h3,
+.skills h3 {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.links p {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+.courses {
+  padding-top: 10px;
+}
+
+.about-me-section {
+  padding: 10px 30px;
+  margin: 0px 40px;
+  border: 3px dotted;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--container-color);
+}
+.about-left-container {
+  padding: 0px;
+  border: 3px solid var(--secondary-color);
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(239, 237, 222, 0.4);
+}
+
+.about-left-container img {
+  width: 100%;
+}
+
+.about-right-container {
+  padding: 10px 30px;
+  border: 3px solid var(--secondary-color);
+  margin: 10px 0px 20px 0px;
+  border-radius: 5px;
+  background-color: rgba(239, 237, 222, 0.4);
+}
+
+.technology-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.about-technologies i {
+  font-size: 40px;
+  padding: 5px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.email-link {
+  padding-top: 5px;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 23px;
+  animation-duration: 1.3s;
+  animation-name: slidein;
+  margin: 20px;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.about-experience-container h4 {
+  font-size: 35px;
+}
