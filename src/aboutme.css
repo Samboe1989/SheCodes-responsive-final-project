@@ -2,11 +2,16 @@
   padding: 25px 40px;
 }
 
+.about-me-container h6 {
+  font-size: 20px;
+}
+
 .work-experience p,
 .introduction p {
   text-align: left;
   padding-bottom: 10px;
   line-height: 25px;
+  font-size: 20px;
 }
 .courses h2,
 .education h2,
@@ -14,16 +19,17 @@
 .work-experience h2,
 .left-image h2 {
   text-align: left;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .courses h5,
 .education h5,
 .work-experience h5 {
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
+
 .courses,
 .introduction,
 .education,
@@ -37,7 +43,7 @@
   list-style: none;
   padding: 10px 10px 0px 10px;
   text-align: left;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 20px;
 }
 
@@ -79,7 +85,8 @@
   padding: 10px 30px;
   margin: 0px 40px;
   border: 3px dotted;
-  max-width: 1000px;
+  width: 1200px;
+
   margin-left: auto;
   margin-right: auto;
   background-color: var(--container-color);
@@ -141,12 +148,6 @@
 
 .about-left-container h3 {
   color: black;
-}
-
-.languages i,
-.skills i,
-.links i {
-  color: var(--primary-color);
 }
 
 .about-technologies i:hover {
